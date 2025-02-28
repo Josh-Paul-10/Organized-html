@@ -1,0 +1,25 @@
+body{margin: 0px;
+}
+
+
+h1{
+    text-shadow: 10px 15px 3px red, 20px 20px 4px green, 30px 25px 6px blue;
+margin: 0px;
+}
+/* can give negative values to the text shadow to make it go in the opposite direction  also first value vertical aligment second value for horizontal aligment and finaly the last or third value for bluring the shadow*/
+.box{
+    border:5px solid;
+    font-size: 5em;
+    width: 200px;
+    height: 200px;
+}
+#box1{
+    text-shadow: 10px 15px 3px red, 20px 20px 4px green, 30px 25px 6px blue;
+    background-color:rgb(44, 90, 130);
+    margin-top:50px ;
+    margin-bottom: 50px;
+}
+#box2{
+    margin-left: 40px;
+}
+/* margin : auto; to center the box*/
