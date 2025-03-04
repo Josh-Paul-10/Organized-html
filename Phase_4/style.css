@@ -30,8 +30,7 @@ margin: 0px;
 #img1{
     float: left;
     margin-right: 20px; 
-  display:flow-root; 
-    overflow:auto;
+  display:flow-root;
 }
 /* display:flow-root; to stop the picture from overflowing out  of the border */
 /*overflow:hidden; to hide the overflow of the picture clip or to add a scroll overflow-clip-margin:30px is used to clip the image after designated measure*/
