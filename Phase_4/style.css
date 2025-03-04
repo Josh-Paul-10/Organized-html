@@ -1,0 +1,38 @@
+body{margin: 20px;
+    border:2px solid;
+}
+
+
+h1{
+    text-shadow: 10px 15px 3px red, 20px 20px 4px green, 30px 25px 6px blue;
+margin: 0px;
+}
+/* can give negative values to the text shadow to make it go in the opposite direction  also first value vertical aligment second value for horizontal aligment and finaly the last or third value for bluring the shadow*/
+.box{
+    border:5px solid;
+    font-size: 5em;
+    width: 200px;
+    height: 200px;
+}
+#box1{
+    text-shadow: 10px 15px 3px red, 20px 20px 4px green, 30px 25px 6px blue;
+    background-color:rgb(44, 90, 130);
+    margin-top:50px ;
+    margin-bottom: 50px;
+}
+#box2{
+    margin-left: 40px;
+}
+/* margin : auto; to center the box*/
+
+/* float = allows you to float the box to the left or right of the page*/
+/* clear = allows you to clear the float so that the box does not float to the left or right of the page*/
+#img1{
+    float: left;
+    margin-right: 20px; 
+  display:flow-root; 
+    overflow:auto;
+}
+/* display:flow-root; to stop the picture from overflowing out  of the border */
+/*overflow:hidden; to hide the overflow of the picture clip or to add a scroll overflow-clip-margin:30px is used to clip the image after designated measure*/
+/*display:inline-block; to make the picture inline with the text */
