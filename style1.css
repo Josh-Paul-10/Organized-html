@@ -1,0 +1,16 @@
+/*to select all elements in teh document you can use the '*' selector*/
+
+.box{
+    border:2px solid red;
+    height: 100px;
+    width: 100px; 
+overflow:auto;
+    padding: auto;
+ text-align: center;
+    box-sizing:border-box;
+}
+/*you can set width and height to auto to make it take up as much space as it needs also you can set it to percentage to cover set percentage of the page*/
+/*padding is similar to margin but it is inside the border*/
+/* box-sizing: border-box; helps with all the above properties */
+/*you can use max-width and max-height to set the maximum width and height of an element*/
+/*you can use min-width and min-height to set the minimum width and height of an element*/
