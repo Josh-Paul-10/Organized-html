@@ -1,0 +1,20 @@
+#box1{
+    width:200px;
+    height:200px;
+    background-color:hsl(0, 70%, 40%);
+    position:relative;
+    top:100px;
+    left:100px;
+}
+/* position: relative; will position the element relative to its normal position*/
+/*fixed will position the element relative to the viewport*/
+/*absolute will position the element relative to the nearest positioned ancestor*/
+/*sticky will position the element relative to the viewport when the page is scrolled*/
+/*static is the default position*/
+/*z-index can be used to set the stack order of the element*/
+body{background-image: url('./../Html/welcome.png');
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+}
