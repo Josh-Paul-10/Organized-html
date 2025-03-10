@@ -1,3 +1,40 @@
 #container{border: 2px solid green;}
 #container ~ p { background-color: rgb(170, 44, 44);
 color:blue}
+/* pseudo class */
+/*it gives additional effects to the selector*/
+
+
+a:link{color:rgb(156, 156, 237);}
+
+
+a:hover{
+    font-size: 1.1em;
+    color:rgb(255, 0, 0);}
+  
+  
+    a:active{color:rgb(0, 255, 0);
+    font-size: 1.2em;}
+   
+   
+   
+    a:visited{color:rgb(0, 0, 255);}
+    /* you can also use not (:hover)to have different effects to other elements the is not hoverd over
+    mainly useful for lists*/
+    li:hover{background-color:rgb(255, 0, 0);}
+    /* the nth child selector is used to select elements based on their position in a group of siblings*/
+li:nth-child(3n){background-color:rgb(0, 255, 0);}
+/*3n is to highlight every third element in the list if you want the first element also to high lighted then use 3n+1*/
+#greetings p {
+    background-color: salmon;
+    padding: auto;
+    display: none;
+}
+#greetings:hover {
+    color: red;
+    font-size: 1.4em;
+}
+#greetings:hover p {
+    display: block;
+}
+/* you can use psuedo class and combinators in tanndem to style*/
