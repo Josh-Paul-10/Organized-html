@@ -25,3 +25,8 @@ p::selection{
     content:"🍊";
 }
 /*content property is used to add content before or after the element*/
+#fruits li::marker{
+    content:"️✔️";
+    color:green;
+    font-size: 1.2em;
+}
