@@ -1,0 +1,27 @@
+h1 ::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+p::first-line{
+    background-color:blue;
+}
+p::selection{
+    color:white;
+    background-color:grey;
+}
+/*selection pseudo element is used to change the color of the selected text*/
+
+#fruits li::before{
+    content:"️✔️";
+
+}
+#apple::after{
+    content:"🍎";
+}
+#banana::after{
+    content:"🍌";
+}
+#orange::after{
+    content:"🍊";
+}
+/*content property is used to add content before or after the element*/
