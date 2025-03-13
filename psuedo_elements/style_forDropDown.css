@@ -1,4 +1,6 @@
 
+.list{display: inline-block;}
+
 .list a:hover{
      background-color: grey;
      font-size: 1.5em;
