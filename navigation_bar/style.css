@@ -1,0 +1,36 @@
+h1{text-align: center;}
+.navbar ul{
+  list-style-type: none;
+background-color: #3e3939;
+padding: 0;
+margin: 0;
+overflow: hidden;
+}
+.navbar a{
+text-decoration: none;
+color: white;
+padding: 15px;
+text-align: center;
+display:inline-block;
+
+}
+.navbar a:hover{
+background-color: #1e0d0d;
+
+}
+/* if you want to make the navbar horizontal */
+.navbar li{
+    float: left;
+}
+/* you can also use float left to make the navbar horizontal  then set overflow to hidden(.navbar ul{overflow:hidden;}) to hide the overflow */
+/*if you haven't set display to block or inline-block you can use the following code to make the navbar horizontal */
+/* .navbar li{
+    display: inline-block;
+} */
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: 1em
+}
