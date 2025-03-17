@@ -1,0 +1,76 @@
+.box{
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: blue;
+}
+#box3{
+    background-color: green;
+}
+#box4{
+    background-color: yellow;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* the flex property is used to set the initial length of a flexible item. */
+/* The justify-content property is used to align the items on the main axis. */
+/* The align-items property is used to align the items on the cross axis. */
+/* align-items: center; is used to center the items vertically */
+/* flex-direction: column; is used to align the items vertically */
+/* flex-direction: row; is used to align the items horizontally */
+/* flex-wrap: wrap; is used to wrap the items */
+/* flex-wrap: wrap-reverse; is used to wrap the items in reverse order */
+/* flex-wrap: nowrap; is used to prevent the items from wrapping */
+/* flex-flow: row wrap; is used to set the direction and wrap properties */
+/* flex-flow: column wrap; is used to set the direction and wrap properties */
+/* flex-flow: column nowrap; is used to set the direction and wrap properties */
+/* flex-flow: row nowrap; is used to set the direction and wrap properties */
+/* flex-grow: 1; is used to allow the items to grow */
+/* flex-shrink: 1; is used to allow the items to shrink */
+/* flex-basis: 100px; is used to set the initial length of a flexible item */
+/* flex: 1 1 100px; is used to set the grow, shrink, and basis properties */
+/* flex: 1 1 auto; is used to set the grow, shrink, and basis properties */
+/* align-self: center; is used to align the item vertically */
+/* justify-content: space-around; is used to evenly distribute the items with space around them  you can you
+use space-between to evenly distribute the items with space between them */
+/*align-content: space-around; is used to evenly distribute the items with space around them  you can you
+use space-between to evenly distribute the items with space between them */
+/*coloumn-gap: 10px; is used to set the gap between the columns */
+/*row-gap: 10px; is used to set the gap between the rows */
+/*order: 1; is used to set the order of the items */
+/*order: -1; is used to set the order of the items */
+#box1{
+transform: rotateZ(45deg);
+}
+#box2{
+    transform: translateY(50px) rotateZ(45deg) scale(1.5);
+}
+/* transform: translate(50px); is used to move the element 50px to the right */
+/* transform: translate(-50px); is used to move the element 50px to the left */
+/* you can use translateX and translateY to move the element horizontally and vertically  also you can use translate(x,y) */
+/* transform: rotate(45deg); is used to rotate the element 45 degrees */
+/*transfrom: rotateX(); is used to rotate the element around rotateY() is used to rotate the element around the y-axis  rotateZ() is used to rotate the element around the z-axis */
+#animation img{
+    width: 100px;
+    height: 100px;
+    animation-name: slideleft;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes slideleft{
+from{transform: translateX(300%);}
+} 
+@keyframes slideright{
+    from{transform: translateX(-300%);}
+}
