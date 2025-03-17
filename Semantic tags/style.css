@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: #3e3939;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+nav{
+    background-color: #3e3939;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+aside{
+    width:20%;
+    float:left; 
+    padding: 10px;
+}
+section{    
+    width:40%;
+    float:left;
+    padding: 10px;
+}
+article{
+    width:40%;
+    float:left;
+    padding: 10px;
+}
+*{
+    box-sizing: border-box;
+}
+/* box-sizing: border-box; is used to include padding and border in the element's total width and height */
+footer{
+    background-color: #3e3939;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    clear: both;
+}
+/* clear: both; is used to clear the float */
+@media screen and (max-width: 600px){
+    aside,section,article{
+        width:100%;
+    }
+    /* if the screen width is less than 600px, the width of aside, section, and article will be 100% */
+    
+}
+.gallery{
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid springgreen;
+    width: 31%;
+}
+.gallery .description{
+    text-align: center;
+    padding: 10px;
+}
+.gallery:hover{
+    background-color: rgb(5, 66, 36);
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+h2{
+    text-align: center;
+    clear: both;
+}
